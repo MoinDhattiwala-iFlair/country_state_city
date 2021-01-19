@@ -1,0 +1,26 @@
+{
+    "name": "moindhattiwala/country_state_city",
+    "description": "This package will help to show list of all country, state and city it will also fetch state list according to country and city list according to states",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moin Dhattiwala",
+            "email": "moin.dhattiwala@iflair.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MoinDhattiwala\\CountryStateCity\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MoinDhattiwala\\CountryStateCity\\CountryStateCityServiceProvider"
+            ]
+        }
+    }
+}
