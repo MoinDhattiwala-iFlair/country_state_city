@@ -1,6 +1,4 @@
 <script type="text/javascript">
-    getCountry();
-
     function getCountry() {
         var html = '<option value="0">Select Country</option>';
         $('#csc_country').html(html);

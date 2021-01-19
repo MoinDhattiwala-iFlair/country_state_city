@@ -27,4 +27,7 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 @include('csc::csc_js')
+<script type="text/javascript">
+    getCountry();
+</script>
 </html>

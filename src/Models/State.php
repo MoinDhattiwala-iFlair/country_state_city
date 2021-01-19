@@ -17,6 +17,6 @@ class State extends Model
 
     public function country()
     {
-        return $this->belongTo(Country::class, 'country_id');
+        return $this->belongsTo(Country::class, 'country_id');
     }
 }
