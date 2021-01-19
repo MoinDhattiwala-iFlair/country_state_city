@@ -10,7 +10,7 @@ class CountryStateCityController extends Controller
 {
     public function index()
     {
-        return view('country_state_city::country_state_city');
+        return view('csc::csc_view');
     }
 
     public function country()
